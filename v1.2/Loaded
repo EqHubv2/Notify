@@ -1,0 +1,9 @@
+function send(text, title)
+    title = title or "Eq Hub"
+    
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title,
+        Text = text,
+        Duration = 2
+    })
+end
