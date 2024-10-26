@@ -1,0 +1,9 @@
+function sendNotify(text, title)
+    title = title or "Notification"
+    
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title,
+        Text = text,
+        Duration = 2
+    })
+end
