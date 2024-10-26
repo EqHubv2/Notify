@@ -1,4 +1,4 @@
-function sendNotify(text, title)
+function send(text, title)
     title = title or "Notification"
     
     game.StarterGui:SetCore("SendNotification", {
